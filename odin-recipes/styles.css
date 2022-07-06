@@ -1,0 +1,25 @@
+body {
+  font-family: monospace;
+}
+
+h1 {
+  color: maroon;
+  text-align: center;
+  margin-top: 40px;
+  font-size: 46px;
+}
+
+.recipe-links {
+  display: block;
+  font-size: 32px;
+  margin: 40px;
+  padding: 40px;
+  text-align: center;
+}
+
+.recipe-1,
+.recipe-2,
+.recipe-3 {
+  display: block;
+  margin: 40px;
+}
