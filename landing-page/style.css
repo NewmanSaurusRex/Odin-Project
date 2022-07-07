@@ -140,6 +140,23 @@ button {
 
 .do-something {
   background-color: #3882f6;
+  margin: 200px;
+  border-radius: 8px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 180px;
+  padding: 20px;
+}
+
+.do-something button {
+  border: 2px solid white;
+  padding: 8px 20px;
+}
+
+.do-text p {
+  font-weight: 200;
 }
 
 .footer {
