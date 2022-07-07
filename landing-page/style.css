@@ -78,14 +78,38 @@ button {
   border: 1px solid #3882f6;
 }
 
-.do-something {
-  background-color: #3882f6;
-}
-
-h2 {
+.random-info-container h2 {
   font-size: 36px;
   font-style: extra bold;
   color: #1f2937;
+  text-align: center;
+  padding: 40px;
+}
+
+.random-things {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 72px;
+  font-size: 18px;
+  color: #1f2937;
+}
+
+.random-image {
+  max-width: 200px;
+}
+
+.random-image img {
+  width: 200px;
+  height: auto;
+  border: 6px solid #3882f6;
+  border-radius: 12px;
+}
+
+.random-text {
+  text-align: center;
+  opacity: 0.7;
+  margin-bottom: 80px;
 }
 
 .fancy-quote {
@@ -93,6 +117,10 @@ h2 {
   font-size: 36px;
   font-style: light italic;
   color: #1f2937;
+}
+
+.do-something {
+  background-color: #3882f6;
 }
 
 .footer {
