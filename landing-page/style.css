@@ -109,14 +109,33 @@ button {
 .random-text {
   text-align: center;
   opacity: 0.7;
-  margin-bottom: 80px;
+  margin-bottom: 60px;
+  padding-top: 20px;
 }
 
 .fancy-quote {
   background-color: #e5e7eb;
   font-size: 36px;
-  font-style: light italic;
+  font-style: italic;
+  font-weight: lighter;
   color: #1f2937;
+  padding: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.fancy-quote quote {
+  padding-top: 40px;
+}
+
+.author {
+  margin-left: 480px;
+  font-size: 18px;
+  font-weight: 700;
+  font-style: normal;
+  margin-top: 40px;
 }
 
 .do-something {
