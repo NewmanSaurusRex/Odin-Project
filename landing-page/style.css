@@ -1,0 +1,42 @@
+.hero-container,
+.footer {
+  background-color: #1f2937;
+}
+
+h1 {
+  font-size: 48px;
+  font-style: extra bold;
+  color: #f9faf8;
+}
+
+h4,
+.header a {
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+.header text {
+  font-size: 24px;
+  color: #f9faf8;
+}
+
+button {
+  background-color: #3882f6;
+}
+
+.do-something {
+  background-color: #3882f6;
+}
+
+h2 {
+  font-size: 36px;
+  font-style: extra bold;
+  color: #1f2937;
+}
+
+.fancy-quote {
+  background-color: #e5e7eb;
+  font-size: 36px;
+  font-style: light italic;
+  color: #1f2937;
+}
