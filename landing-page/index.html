@@ -8,73 +8,87 @@
     <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
-    <div class="container">
-      <header class="header">
-        <div class="logo">
-          <img src="/landing-page/transparent-logo.png" class="logo-img" />
-        </div>
-
-        <div class="links">
+    <div class="wrapper" id="one">
+      <div class="header">
+        <nav>
+          <div class="logo">
+            <img src="/landing-page/transparent-logo.png" class="logo-img" />
+          </div>
           <ul>
             <li><a href="#">Header Link 1</a></li>
             <li><a href="#">Header Link 2</a></li>
             <li><a href="#">Header Link 3</a></li>
           </ul>
+        </nav>
+
+        <div class="hero">
+          <div id="hero-text">
+            <h1>This website is awesome!</h1>
+            <p>
+              This website has some subtext that goes here under the main title.
+              It's a smaller font and the color is lower contrast.
+            </p>
+            <button>Sign Up!</button>
+          </div>
+          <div id="hero-image">
+            <img src="pexels-jeff-stapleton.jpg" alt="park" />
+          </div>
         </div>
-      </header>
+      </div>
+    </div>
 
-      <div class="hero-container">
-        <div class="hero-text">
-          <h1>This website is awesome!</h1>
-          <p>
-            This website has some subtext that goes here under the main title.
-            It's a smaller font and the color is lower contrast.
-          </p>
-          <button>Sign Up!</button>
+    <div class="wrapper" id="two">
+      <div class="random-info-container">
+        <h2>Some Random Information.</h2>
+
+        <div class="random-things-wrapper">
+          <div class="random-image">
+            <img src="/landing-page/pexels-caleb-oquendo.jpg" />
+            <div class="random-text">Scarf Boy.</div>
+          </div>
+          <div class="random-image">
+            <img src="/landing-page/pexels-daniel-johnson.jpg" />
+            <div class="random-text">Ball Boy.</div>
+          </div>
+          <div class="random-image">
+            <img src="/landing-page/pexels-rachel-claire.jpg" />
+            <div class="random-text">Peep Boy.</div>
+          </div>
+          <div class="random-image">
+            <img src="/landing-page/pexels-magda-ehlers.jpg" />
+            <div class="random-text">Sleep Boy.</div>
+          </div>
         </div>
-        <div class="hero-image">
-          <img src="pexels-jeff-stapleton.jpg" />
+      </div>
+    </div>
+
+    <div class="wrapper" id="three">
+      <div class="fancy-quote">
+        <quote>Somebody famous probably said this one time.</quote>
+        <div class="author">-Megan Newman</div>
+      </div>
+    </div>
+
+    <div class="wrapper" id="four">
+      <div class="do-something">
+        <div class="do-text">
+          <h3>Go do this thing now!</h3>
+          <p>Click that button man.</p>
+        </div>
+        <div>
+          <a href="#js">
+            <button>Push it.</button>
+          </a>
         </div>
       </div>
     </div>
 
-    <div class="random-info-container">
-      <h2>Some Random Information.</h2>
-    </div>
-    <div class="random-things">
-      <div class="random-image">
-        <img src="/landing-page/pexels-caleb-oquendo.jpg" />
-        <div class="random-text">Scarf Boy.</div>
-      </div>
-      <div class="random-image">
-        <img src="/landing-page/pexels-daniel-johnson.jpg" />
-        <div class="random-text">Ball Boy.</div>
-      </div>
-      <div class="random-image">
-        <img src="/landing-page/pexels-rachel-claire.jpg" />
-        <div class="random-text">Peep Boy.</div>
-      </div>
-      <div class="random-image">
-        <img src="/landing-page/pexels-magda-ehlers.jpg" />
-        <div class="random-text">Sleep Boy.</div>
-      </div>
-    </div>
-
-    <div class="fancy-quote">
-      <quote>Somebody famous probably said this one time.</quote>
-      <div class="author">-Megan Newman</div>
-    </div>
-
-    <div class="do-something">
-      <div class="do-text">
-        <h3>Go do this thing now!</h3>
-        <p>Click that button man.</p>
-      </div>
-      <button>Push it.</button>
-    </div>
-
-    <div class="footer">
-      <footer>copyright me. pew pew.</footer>
-    </div>
+    <footer>
+      <a href="https://github.com/NewmanSaurusRex"><strong>M Newman</strong></a>
+      for
+      <a href="https://www.theodinproject.com"
+        ><strong>The Odin Project</strong></a
+      >
+    </footer>
   </body>
 </html>
