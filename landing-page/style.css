@@ -28,11 +28,6 @@ body {
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
-.wrapper {
-  max-width: 1440px;
-  margin: auto;
-}
-
 .section {
   display: flex;
   flex-direction: column;
@@ -41,7 +36,7 @@ body {
 .section-1 .wrapper {
   gap: 60px;
   background-color: var(--branding-color);
-  padding: 36px;
+  padding: 36px 60px;
 }
 
 .section-1 .header {
@@ -190,4 +185,49 @@ button {
   margin-left: 400px;
   font-size: 24px;
   font-style: normal;
+}
+
+.section-4 {
+  background-color: var(--hero-heading-color);
+  padding: 46px 60px;
+  display: flex;
+  justify-content: center;
+}
+
+.section-4 .do-something {
+  gap: 8px;
+  border-radius: 8px;
+  background-color: var(--accent-color);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 36px 60px;
+}
+
+.section-4 .do-text {
+  color: var(--hero-text-color);
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.section-4 .button-outline {
+  background-color: transparent;
+  border: 2px solid var(--hero-text-color);
+  border-radius: 8px;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  background-color: var(--branding-color);
+  color: var(--hero-heading-color);
+  font-size: 18px;
+  padding: 40px;
+}
+
+footer a {
+  font-size: 18px;
+  text-decoration: none;
+  color: var(--hero-heading-color);
 }
