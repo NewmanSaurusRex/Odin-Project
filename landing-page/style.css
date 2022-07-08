@@ -135,4 +135,59 @@ button {
   font-weight: 600;
   line-height: 1;
   margin-top: 0;
+  margin-bottom: 40px;
+}
+
+.section-2-cards {
+  display: flex;
+  gap: 36px;
+}
+
+.section-2-cards .random-card {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+  font-weight: 200;
+  border: 2px solid var(--accent-color);
+  border-radius: 8px;
+  padding-top: 44px;
+}
+
+.section-2-cards .random-card img {
+  width: 200px;
+  height: auto;
+  border-radius: 8px;
+}
+
+.section-2-cards .random-card p {
+  text-align: center;
+  margin-top: 0;
+}
+
+.section-3 {
+  background-color: var(--hero-text-color);
+  padding: 60px;
+}
+
+.section-3 .wrapper {
+  max-width: 70ch;
+}
+
+.section-3 .fancy-quote {
+  font-size: 32px;
+  color: var(--branding-color);
+  font-weight: 200;
+  font-style: italic;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.section-3 p {
+  margin-top: 20px;
+  margin-left: 400px;
+  font-size: 24px;
+  font-style: normal;
 }
