@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>js practice</title>
+  </head>
+  <body>
+    <script>
+      function add7(x) {
+        let result = x + 7;
+        console.log(result);
+      }
+
+      add7(4);
+
+      function multiply(y, z) {
+        let times = y * z;
+        console.log(times);
+      }
+
+      multiply(12, 42);
+
+      function capitalize(string) {
+        let messyString = string.charAt(0).toUpperCase();
+        let funkyString = string.slice(1);
+        cleanString = messyString + funkyString;
+        console.log(cleanString);
+      }
+
+      capitalize("hotdog");
+
+      function lastLetter(string) {
+        return string.substr(-1, 1);
+      }
+
+      console.log(lastLetter("abcd"));
+    </script>
+  </body>
+</html>
