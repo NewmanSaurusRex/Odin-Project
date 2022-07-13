@@ -7,7 +7,7 @@ h1 {
   font-weight: 700;
 }
 
-.date {
+.task {
   display: flex;
   flex-direction: column;
   border: 2px solid white;
@@ -16,13 +16,13 @@ h1 {
   margin: 12px;
 }
 
-.date h3 {
+.task h3 {
   text-align: center;
   padding: 20px;
   font-weight: 400;
 }
 
-.date p {
+.task p {
   padding: 20px;
   padding-bottom: 2px;
   font-size: 22px;
