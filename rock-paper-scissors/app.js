@@ -10,8 +10,12 @@ function computerPlay() {
   return variables[Math.floor(Math.random() * options.length)];
 }
 
-function playRound() {
-  let playerSelection = "rock";
-  let computerSelection = computerPlay();
-  console.log(playRound(playerSelection, computerSelection));
+function game() {
+  for (let i = 0; i < 5; i++) {
+    function playRound() {
+      let playerSelection = "rock";
+      let computerSelection = computerPlay();
+      playRound(playerSelection, computerSelection);
+    }
+  }
 }
