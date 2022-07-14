@@ -9,3 +9,9 @@ function computerPlay() {
   let options = ["rock", "paper", "scissors"];
   return variables[Math.floor(Math.random() * options.length)];
 }
+
+function playRound() {
+  let playerSelection = "rock";
+  let computerSelection = computerPlay();
+  console.log(playRound(playerSelection, computerSelection));
+}
